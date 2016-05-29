@@ -1,0 +1,29 @@
+{
+  "name": "genius",
+  "version": "0.0.0",
+  "description": "Play genius on your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "nuups",
+    "start": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vieiralucas/genius.git"
+  },
+  "keywords": [
+    "genius",
+    "game",
+    "cli"
+  ],
+  "author": "Lucas Vieira <vieiralucas4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vieiralucas/genius/issues"
+  },
+  "homepage": "https://github.com/vieiralucas/genius#readme",
+  "dependencies": {
+    "clivas": "^0.2.0",
+    "keypress": "^0.2.1"
+  }
+}
