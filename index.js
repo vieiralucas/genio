@@ -102,7 +102,7 @@ const drawSequence = (sequence = [], delay = 1000, cb = () => {}) => {
         }
       }, delay / 2)
 
-    }, (i + 1) * delay)
+    }, i * delay)
   })
 }
 
