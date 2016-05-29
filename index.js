@@ -147,6 +147,7 @@ process.stdin.on('keypress', (ch, key) => {
         nextLevel()
       }
     })
+    drawingSequence = false
     return
   }
 
