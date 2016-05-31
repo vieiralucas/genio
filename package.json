@@ -4,7 +4,7 @@
   "description": "Play genius on your terminal",
   "main": "index.js",
   "bin": {
-    "genius": "./index.js"
+    "genio": "./index.js"
   },
   "scripts": {
     "test": "nuups",
