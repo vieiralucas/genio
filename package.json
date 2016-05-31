@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Play genius on your terminal",
   "main": "index.js",
+  "bin": {
+    "genius": "./index.js"
+  },
   "scripts": {
     "test": "nuups",
     "start": "./index.js"
